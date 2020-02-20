@@ -47,8 +47,8 @@ $ make && make install
 * 编译本项目
 
 ```
-首先要进入本工程的spider目录
-$ cd /path/to/project/spider
+首先要进入本工程的dhtspider目录
+$ cd /path/to/project/dhtspider
 
 然后直接编译: 
 $ make

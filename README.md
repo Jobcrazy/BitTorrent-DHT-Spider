@@ -48,8 +48,8 @@ $ make && make install
 * Compile the spider
 
 ```
-You should go to the spider directory of this project:
-$ cd /path/to/project/spider
+You should go to the dhtspider directory of this project:
+$ cd /path/to/project/dhtspider
 
 and then compile: 
 $ make
