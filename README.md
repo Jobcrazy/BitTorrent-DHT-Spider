@@ -38,7 +38,7 @@ $ ./b2 install --prefix=/usr/local/boost
 $ wget https://github.com/arvidn/libtorrent/releases/download/libtorrent-1_1_10/libtorrent-rasterbar-1.1.10.tar.gz
 $ tar -xzf libtorrent-rasterbar-1.1.10.tar.gz
 $ cd libtorrent-rasterbar-1.1.10
-$ ./configure prefix=/usr/local/libtorrent
+$ ./configure --prefix=/usr/local/libtorrent
 $ make && make install
 ```
 
