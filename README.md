@@ -15,6 +15,7 @@
 2. 创建dbooster用户，其密码为UxtmU6w3wNjYUMvV
 3. 设置dbooster用户的登录信息为127.0.0.1
 4. 设置dbooster用户只能对dbooster_torrents读写
+5. 将database目录里的dbooster_torrents.sql导入到dbooster_torrents库
 
 
 ## 编译步骤
@@ -51,7 +52,7 @@ $ cd /path/to/project/spider
 $ make
 ```
 
-##运行
+## 运行
 
 * 编译完成spider后即可运行
 
