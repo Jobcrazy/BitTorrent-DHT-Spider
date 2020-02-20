@@ -6,8 +6,9 @@
 * 数据库: MySQL >= 5.5.5
 * 编译器: gcc, gcc-c++
 * 依赖库: 
-   1. [Boost >= 1.59](https://www.boost.org/users/history/)
-   2. [libtorrent = 1.1.x](https://github.com/arvidn/libtorrent/releases/tag/libtorrent-1_1_10)
+   1. OpenSSL
+   2. [Boost >= 1.59](https://www.boost.org/users/history/)
+   3. [libtorrent = 1.1.x](https://github.com/arvidn/libtorrent/releases/tag/libtorrent-1_1_10)
 
 ## 配置MySQL
 1. 创建dbooster_torrents数据库
@@ -18,6 +19,8 @@
 
 ## 编译步骤
 ### 编译依赖库
+* 一般Linux系统都自带OpenSSL，无需额外编译。比如CentOS里运行如下指令即可安装：`yum install openssl-devel`
+
 * 下载并编译BOOST
 
 ```
@@ -41,8 +44,8 @@ $ make && make install
 * 编译本项目
 
 ```
-首先要进入本工程所在的目录
-$ cd /path/to/project
+首先要进入本工程的spider目录
+$ cd /path/to/project/spider
 
 然后直接编译: 
 $ make
@@ -50,7 +53,7 @@ $ make
 
 ##运行
 
-* 编译完成后即可运行
+* 编译完成spider后即可运行
 
   前台运行: `$ ./dhtspy`
 
