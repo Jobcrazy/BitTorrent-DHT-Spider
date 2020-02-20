@@ -25,7 +25,7 @@ $ wget https://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.ta
 $ tar -xzf boost_1_59_0.tar.gz
 $ cd boost_1_59_0
 $ ./bootstrap.sh --prefix=/usr/local/boost
-$ ./b2 install --prefix=/home/xzz/boost_1_56_0
+$ ./b2 install --prefix=/usr/local/boost
 ```
 
 * 下载并编译libtorrent
