@@ -18,7 +18,7 @@ This is a C++ magnet spider, and it can grab bittorrent infomation from the DHT 
 3. Set the host name of this user as "127.0.0.1"
 4. Set the read/write access of database "dbooster_torrents" for this user
 5. Import the file "dbooster_torrents.sql" to database "dbooster_torrents"
-6. If you want to change the default login infomation, please edit "P2SP.cpp" 
+6. If you want to change the default login information, please edit "P2SP.cpp" 
 
 
 ## Compile
